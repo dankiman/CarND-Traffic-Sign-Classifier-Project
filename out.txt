@@ -1,0 +1,4 @@
+model_1483529398: EPOCHS: 1 dropout: 0.75 mu: 0.000 sigma: 0.100 Validation: 0.597 Test: 0.728
+model_1483529531: EPOCHS: 1 dropout: 0.5 mu: 0.000 sigma: 0.100 Validation: 0.501 Test: 0.565
+model_1483529659: EPOCHS: 1 dropout: 1 mu: 0.000 sigma: 0.100 Validation: 0.542 Test: 0.598
+model_1483529766: EPOCHS: 1 dropout: 1 mu: 0.000 sigma: 0.050 Validation: 0.539 Test: 0.573

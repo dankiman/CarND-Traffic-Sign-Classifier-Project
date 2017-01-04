@@ -27,7 +27,9 @@ Run this command at the terminal prompt to install [OpenCV](http://opencv.org/).
 ```
 git clone https://github.com/udacity/CarND-Traffic-Signs
 cd CarND-Traffic-Signs
-jupyter notebook Traffic_Signs_Recognition.ipynb
+conda env create -f environment.yml
+source activate CarND-Traffic-Sign-Classifier-Project
+jupyter notebook Traffic_Sign_Classifier.ipynb
 ```
-3. Follow the instructions in the `Traffic_Signs_Recognition.ipynb` notebook.
+3. Follow the instructions in the `Traffic_Sign_Classifier.ipynb` notebook.
 
