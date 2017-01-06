@@ -1,4 +1,40 @@
-model_1483529398: EPOCHS: 1 dropout: 0.75 mu: 0.000 sigma: 0.100 Validation: 0.597 Test: 0.728
-model_1483529531: EPOCHS: 1 dropout: 0.5 mu: 0.000 sigma: 0.100 Validation: 0.501 Test: 0.565
-model_1483529659: EPOCHS: 1 dropout: 1 mu: 0.000 sigma: 0.100 Validation: 0.542 Test: 0.598
-model_1483529766: EPOCHS: 1 dropout: 1 mu: 0.000 sigma: 0.050 Validation: 0.539 Test: 0.573
+
+--> Normalize:True - Gauss:True - Augmentation:True
+model_1483544789: EPOCHS: 25 dropout: 1.0 mu: 0.000 sigma: 0.100 Validation: 0.912 Test: 0.857
+model_1483544959: EPOCHS: 25 dropout: 0.8 mu: 0.000 sigma: 0.100 Validation: 0.934 Test: 0.895
+model_1483545131: EPOCHS: 25 dropout: 0.6 mu: 0.000 sigma: 0.100 Validation: 0.918 Test: 0.905
+
+--> Normalize:True - Gauss:True - Augmentation:False
+model_1483545212: EPOCHS: 25 dropout: 1.0 mu: 0.000 sigma: 0.100 Validation: 0.944 Test: 0.857
+model_1483545290: EPOCHS: 25 dropout: 0.8 mu: 0.000 sigma: 0.100 Validation: 0.981 Test: 0.912
+model_1483545369: EPOCHS: 25 dropout: 0.6 mu: 0.000 sigma: 0.100 Validation: 0.982 Test: 0.920
+
+--> Normalize:True - Gauss:False - Augmentation:True
+model_1483545548: EPOCHS: 25 dropout: 1.0 mu: 0.000 sigma: 0.100 Validation: 0.934 Test: 0.889
+model_1483545719: EPOCHS: 25 dropout: 0.8 mu: 0.000 sigma: 0.100 Validation: 0.941 Test: 0.913
+model_1483545890: EPOCHS: 25 dropout: 0.6 mu: 0.000 sigma: 0.100 Validation: 0.904 Test: 0.909
+
+--> Normalize:True - Gauss:False - Augmentation:False
+model_1483545977: EPOCHS: 25 dropout: 1.0 mu: 0.000 sigma: 0.100 Validation: 0.977 Test: 0.911
+model_1483546062: EPOCHS: 25 dropout: 0.8 mu: 0.000 sigma: 0.100 Validation: 0.982 Test: 0.924
+model_1483546147: EPOCHS: 25 dropout: 0.6 mu: 0.000 sigma: 0.100 Validation: 0.985 Test: 0.943
+
+--> Normalize:False - Gauss:True - Augmentation:True
+model_1483546315: EPOCHS: 25 dropout: 1.0 mu: 0.000 sigma: 0.100 Validation: 0.913 Test: 0.867
+model_1483546477: EPOCHS: 25 dropout: 0.8 mu: 0.000 sigma: 0.100 Validation: 0.892 Test: 0.872
+model_1483546639: EPOCHS: 25 dropout: 0.6 mu: 0.000 sigma: 0.100 Validation: 0.811 Test: 0.831
+
+--> Normalize:False - Gauss:True - Augmentation:False
+model_1483546721: EPOCHS: 25 dropout: 1.0 mu: 0.000 sigma: 0.100 Validation: 0.959 Test: 0.864
+model_1483546801: EPOCHS: 25 dropout: 0.8 mu: 0.000 sigma: 0.100 Validation: 0.968 Test: 0.897
+model_1483546881: EPOCHS: 25 dropout: 0.6 mu: 0.000 sigma: 0.100 Validation: 0.954 Test: 0.890
+
+--> Normalize:False - Gauss:False - Augmentation:True
+model_1483547049: EPOCHS: 25 dropout: 1.0 mu: 0.000 sigma: 0.100 Validation: 0.889 Test: 0.876
+model_1483547212: EPOCHS: 25 dropout: 0.8 mu: 0.000 sigma: 0.100 Validation: 0.917 Test: 0.916
+model_1483547375: EPOCHS: 25 dropout: 0.6 mu: 0.000 sigma: 0.100 Validation: 0.833 Test: 0.878
+
+--> Normalize:False - Gauss:False - Augmentation:False
+model_1483547457: EPOCHS: 25 dropout: 1.0 mu: 0.000 sigma: 0.100 Validation: 0.958 Test: 0.874
+model_1483547540: EPOCHS: 25 dropout: 0.8 mu: 0.000 sigma: 0.100 Validation: 0.972 Test: 0.906
+model_1483547622: EPOCHS: 25 dropout: 0.6 mu: 0.000 sigma: 0.100 Validation: 0.943 Test: 0.897
